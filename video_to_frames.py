@@ -42,7 +42,7 @@ while(True):
     
     i += 1
 
-    
+    cv2.imwrite('./frames/frame' + str(i) + '.png', frame)
 
     if(_show == 1):
 	 	# Display the resulting frame
